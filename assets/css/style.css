@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+* {
+    color: black;
+}
+
+html, body {
+    background: #acd2d2;
+    height: 100%;
+}
+
+h1 {
+    font-family:'Tangerine', serif;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-dark .navbar-brand, .nav-item {
+    font-size: 40px;
+    font-family: 'Tangerine', serif;
+    color: white;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 50px;
+}
+
+.container {
+    margin-top: 45px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+.square_image {
+    width: 250px;
+    height: 280px;
+    border-radius: 50%;
+
+}
+
+#img-border{
+    border-right: black 4px solid;
+    padding: 4px;
+}
+
+#img-style{
+    margin-bottom: none;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.contact-form {
+    width: 80%;
+}
+
+
+.port-cards {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000066;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper > h1 {
+    padding: 20px;
+    margin: 40px;
+    font-size: 2.5rem;
+}
+
+.wrapper > p {
+    font-size: 1.5rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+
